@@ -1,0 +1,32 @@
+<style>
+  .reviewed {
+    background-image: linear-gradient(
+      0deg,
+      rgb(238, 238, 206),
+      rgb(238, 238, 206)
+    );
+  }
+  .reviewed:hover {
+    background-blend-mode: multiply;
+    background-color: rgba(21, 21, 55, 0.12);
+  }
+  .deleted {
+    background-blend-mode: multiply;
+    background-color: rgba(21, 21, 55, 0.12);
+  }
+</style>
+
+<table>
+  <tr>
+    <td>Number</td>
+    <td>Name</td>
+  </tr>
+  <tr class="reviewed">
+    <td>1</td>
+    <td>Reviewed</td>
+  </tr>
+  <tr class="reviewed deleted">
+    <td>2</td>
+    <td>Reviewed and deleted</td>
+  </tr>
+</table>
